@@ -7,27 +7,27 @@
 
 import Foundation
 
-struct Photos {
+struct Photos: Decodable {
     let photos: [Photo]
 }
 
-struct Photo {
+struct Photo: Decodable {
     let id: Int
     let sol: Int
     let camera: Camera
-    let img_scr: String
+    let img_scr: String?
     let earth_date: String
     let rover: Rover
 }
 
-struct Camera {
+struct Camera: Decodable {
     let id: Int
     let name: String
     let rover_id: Int
     let full_name: String
 }
 
-struct Rover {
+struct Rover: Decodable {
     let id: Int
     let name: String
     let landing_date: String
