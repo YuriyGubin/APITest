@@ -39,6 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A8A944129A8FD1100236A8D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6AF0C2FC29A75EBD008D45E9 /* AppDelegate.swift */,
+				6AF0C2FE29A75EBD008D45E9 /* SceneDelegate.swift */,
+				6AF0C30A29A75EBF008D45E9 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6A8A944229A8FD2900236A8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6AF0C31029A76619008D45E9 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A8A944329A8FD3100236A8D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6AF0C30029A75EBD008D45E9 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6A8A944429A8FD4100236A8D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6AF0C30229A75EBD008D45E9 /* Main.storyboard */,
+				6AF0C30729A75EBF008D45E9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		6AF0C2F029A75EBD008D45E9 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +93,11 @@
 		6AF0C2FB29A75EBD008D45E9 /* APITest */ = {
 			isa = PBXGroup;
 			children = (
-				6AF0C2FC29A75EBD008D45E9 /* AppDelegate.swift */,
-				6AF0C2FE29A75EBD008D45E9 /* SceneDelegate.swift */,
-				6AF0C31029A76619008D45E9 /* Photo.swift */,
-				6AF0C30029A75EBD008D45E9 /* MainViewController.swift */,
-				6AF0C30229A75EBD008D45E9 /* Main.storyboard */,
+				6A8A944129A8FD1100236A8D /* App */,
+				6A8A944229A8FD2900236A8D /* Models */,
+				6A8A944329A8FD3100236A8D /* ViewControllers */,
+				6A8A944429A8FD4100236A8D /* Storyboards */,
 				6AF0C30529A75EBF008D45E9 /* Assets.xcassets */,
-				6AF0C30729A75EBF008D45E9 /* LaunchScreen.storyboard */,
-				6AF0C30A29A75EBF008D45E9 /* Info.plist */,
 			);
 			path = APITest;
 			sourceTree = "<group>";
@@ -293,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 789AT898J7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = APITest/Info.plist;
+				INFOPLIST_FILE = APITest/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -325,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 789AT898J7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = APITest/Info.plist;
+				INFOPLIST_FILE = APITest/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
